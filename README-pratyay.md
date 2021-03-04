@@ -1,4 +1,4 @@
-# README - Pratyay's Implementation of Konti Technical Tast
+# README - Pratyay's Implementation of Konti Technical Task
 Note: only the backend REST API has been implemented.
 ## Installation
 1. Unzip folder
