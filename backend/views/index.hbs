@@ -1,2 +1,17 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<p>Visual List of Posts</p>
+<table>
+  <thead>
+    <th>Title</th>
+    <th>Content</th>
+  </thead>
+  <tbody>
+    {{#data}}
+    <tr>
+      <td>{{title}}
+      </td>
+      <td>{{content}}</td>
+    </tr>
+    {{/data}}
+  </tbody>
+</table>
